@@ -1,0 +1,8 @@
+{
+  "name": "lsm-kv-store",
+  "version": "1.0.0",
+  "description": "A small LSM-tree key-value store with WAL, SSTables, bloom filters and compaction",
+  "main": "src/index.js",
+  "scripts": { "test": "node --test \"test/*.test.js\"", "demo": "node examples/demo.js" },
+  "license": "MIT"
+}
